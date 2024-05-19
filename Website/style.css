@@ -135,21 +135,28 @@ navbar {
 
 .extra {
     width: 80%;
-    fon
+    color: white;
+    font-size: large;
+
 }
 
-p {
-    color: white;
-}
+
 
 .vid {
     height: 60vh;
     width: 50vw;
     margin: 10px;
     margin-top: 30px;
-    background-color: wheat;
+    background-color: transparent;
     border-radius: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+}
+
+video {
+    border-radius: 12px;
+    height: 90%;
+    width: 100%;
 }
